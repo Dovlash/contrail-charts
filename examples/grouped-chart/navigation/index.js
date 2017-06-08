@@ -38,13 +38,13 @@ const config = {
             accessor: 'a',
             label: 'Label A',
             chart: 'StackedBar',
-            color: colorScheme[1],
+            color: '#3F51B5',
             axis: 'y',
           }, {
             accessor: 'b',
             label: 'Label B',
             chart: 'StackedBar',
-            color: colorScheme[3],
+            color: '#2196F3',
             axis: 'y',
           }
         ]
@@ -74,13 +74,13 @@ const config = {
             accessor: 'a',
             label: 'Label A',
             chart: 'GroupedBar',
-            color: colorScheme[7],
+            color: '#3F51B5',
             axis: 'y',
           }, {
             accessor: 'b',
             label: 'Label B',
             chart: 'GroupedBar',
-            color: colorScheme[6],
+            color: '#2196F3',
             axis: 'y',
           },
         ]
@@ -111,7 +111,7 @@ const config = {
             label: 'Label A',
             chart: 'Area',
             axis: 'y',
-            color: colorScheme[2],
+            color: '#3F51B5',
           }, {
             accessor: 'c',
             label: 'Label C',
@@ -148,13 +148,13 @@ const config = {
             label: 'Label A',
             chart: 'Line',
             axis: 'y',
-            color: colorScheme[11],
+            color: '#2196F3',
           }, {
             accessor: 'c',
             label: 'Label C',
             chart: 'Line',
             axis: 'y',
-            color: colorScheme[9],
+            color: '#0FBFAD',
           }
         ]
       },
@@ -186,7 +186,7 @@ const config = {
           {
             accessor: 'a',
             label: 'Label D',
-            color: colorScheme[8],
+            color: '#3F51B5',
             chart: 'Line',
             axis: 'y',
           }

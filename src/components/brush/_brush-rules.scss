@@ -9,6 +9,7 @@
 
   .selection {
     fill: none;
+    stroke: rgba(0,0,0,.12);
     // saturate colors everything inside selection
     //fill: black;
     //mix-blend-mode: overlay;
@@ -16,6 +17,7 @@
 
   .unselected {
     fill: $p_selection_color;
+    full: rgba(0,0,0,.2);
     opacity: 0.2;
   }
 

@@ -29,14 +29,16 @@ const config = {
             chart: 'StackedBar',
             axis: 'y1',
             tooltip: 'default-tooltip',
+            color: '#3F51B5',
           }, {
             accessor: 'b',
             chart: 'StackedBar',
             axis: 'y1',
             tooltip: 'custom-tooltip',
+            color: '#2196F3',
           }, {
             accessor: 'c',
-            color: colorScheme[2],
+            color: '#0FBFAD',
             chart: 'Line',
             axis: 'y2',
             tooltip: 'default-tooltip',

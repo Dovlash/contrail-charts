@@ -58,12 +58,14 @@ const config = {
             chart: 'GroupedBar',
             axis: 'y1',
             tooltip: 'default-tooltip',
+            color: '#3F51B5',
           }, {
             accessor: 'b',
             labelFormatter: 'Label B',
             chart: 'GroupedBar',
             axis: 'y1',
             tooltip: 'default-tooltip',
+            color: '#2196F3',
           }, {
             accessor: 'c',
             labelFormatter: 'Label C',
@@ -71,17 +73,18 @@ const config = {
             chart: 'GroupedBar',
             axis: 'y1',
             tooltip: 'default-tooltip',
+            color: '#0FBFAD',
           }, {
             accessor: 'd',
             labelFormatter: 'Label D',
-            color: colorScheme[3],
+            color: '#6CBD70',
             chart: 'Line',
             axis: 'y2',
             tooltip: 'default-tooltip',
           }, {
             accessor: 'e',
             labelFormatter: 'Label E',
-            color: colorScheme[4],
+            color: '#EA8235',
             chart: 'Line',
             axis: 'y2',
             tooltip: 'default-tooltip',
@@ -123,14 +126,17 @@ const config = {
             accessor: 'a',
             labelFormatter: 'Label A',
             chart: 'StackedBar',
+            color: '#3F51B5',
           }, {
             accessor: 'b',
             labelFormatter: 'Label B',
             chart: 'StackedBar',
+            color: '#2196F3',
           }, {
             accessor: 'd',
             labelFormatter: 'Label D',
             chart: 'Line',
+            color: '#0FBFAD',
           }
         ]
       },

@@ -35,18 +35,21 @@ const config = {
             labelFormatter: 'Label Group.A',
             tooltip: 'default-tooltip',
             axis: 'y1',
+            color: '#3F51B5',
           }, {
             accessor: 'b',
             chart: 'GroupedBar',
             labelFormatter: 'Label B',
             tooltip: 'default-tooltip',
             axis: 'y1',
+            color: '#2196F3',
           }, {
             accessor: 'c',
             chart: 'GroupedBar',
             labelFormatter: 'Label C',
             tooltip: 'default-tooltip',
             axis: 'y1',
+            color: '#0FBFAD',
           }
         ]
       },

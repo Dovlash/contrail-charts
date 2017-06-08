@@ -15,14 +15,14 @@ const lbColorScheme7 = [
 ]
 
 const lbColorScheme17 = [
-  '#a88add',
-  '#fcc100',
-  '#2196f3',
-  '#4caf50',
-  '#0cc2aa',
-  '#6cc788',
-  '#6887ff',
-  '#f06292'
+  '#3F51B5',
+  '#2196F3',
+  '#0FBFAD',
+  '#6CBD70',
+  '#EA8235',
+  '#F44455',
+  '#F77A99',
+  '#9CB0C5'
 ].concat(d3ColorScheme10)
 
 const bubbleColorScheme6 = [
